@@ -9,10 +9,13 @@
     justify-content: space-around;
   }
   
+  /* not work */
   .flex.align-center {
     align-items: center;
   }
   
+
+
   /* list helpers */
   
   .clean-list {
