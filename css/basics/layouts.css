@@ -1,0 +1,29 @@
+
+
+.main-layout {
+    display: grid;
+    grid-template-columns:
+      minmax(260px, 1fr)
+      minmax(auto, 1340px)
+      minmax(260px, 1fr);
+      
+  }
+  .main-layout > *:not(.full) {
+    grid-column: 2;
+  }
+  
+  .main-layout > *.full {
+    grid-column: 1 / -1;
+  }
+  
+
+
+
+  .post-layout {
+    /* --card-layout-margin: 80px; */
+    row-gap: 130px;
+    grid-template-columns:
+      var(--card-layout-margin)
+      1fr 60px 1fr
+      var(--card-layout-margin);
+  }

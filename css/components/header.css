@@ -1,0 +1,10 @@
+.main-header {
+/* display: flex; */
+    height: 128px;
+    background-color: var(--header-clr);
+    color: var(--headertextclr);
+ 
+    text-decoration: none;
+    /* text-transform: uppercase; */
+  }
+
