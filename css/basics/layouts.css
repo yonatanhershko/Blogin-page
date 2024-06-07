@@ -18,7 +18,8 @@
 
 
   .main-content-layout{
-
+    border-right: 1px solid var(--postnavclr);
+    border-left: 1px solid var(--postnavclr);
   }
 
   

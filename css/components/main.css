@@ -1,8 +1,7 @@
-
 .post {
     display: grid;
-    grid-template-columns:repeat(2,1fr);
-    margin-bottom:6em;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 6em;
 }
 
 .post-image {
@@ -10,7 +9,8 @@
     grid-column: 1/ 2;
     grid-row: 1/4;
 }
-.post-title{
+
+.post-title {
     color: var(--posttitleclr);
     font-family: lato-bold;
     text-transform: uppercase;
@@ -21,18 +21,34 @@
     width: 186px;
     height: 40px;
     border-radius: 25px;
-    border: 1px solid darkgrey;
-
+    color: var( --postbtclr);
+    background-color: #fff;
+    border: 2px solid var( --postbtclr);
     margin-inline-start: 1.5em;
-
-
+    transition:  0.5s ease;
 }
+
+.post-bt:hover{
+    cursor: pointer;
+    border: 2px solid var(--hoverclr);
+    color: var(--hoverclr);
+    animation: pulse 1s infinite;
+}
+
+
 
 .post-title,
 .post-text {
     padding: 10px 35px;
 }
 
-.post-text{
+.post-text {
     color: var(--posttextclr);
+}
+
+
+.post-layout:nth-child(3) {
+    display: grid;
+
+    margin-bottom: 6em;
 }

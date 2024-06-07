@@ -1,16 +1,15 @@
 .main-header {
-    /* display: flex; */
     height: 128px;
     background-color: var(--header-clr);
     color: var(--headertextclr);
     text-decoration: none;
-    margin-bottom:  6em;
+
     /* text-transform: uppercase; */
 }
 
 .main-nav {
     display: flex;
-    gap: 50px;
+
 }
 
 .main-nav li {
@@ -37,19 +36,32 @@
 
 .nav-item:hover {
     color: var(--hoverclr);
+    cursor: pointer;
+ 
 }
 
 
+.nav-item{
+    position: relative;
+    border-left: 1px solid  rgb(27, 27, 27);
+    border-right: 1px solid  rgb(27, 27, 27);
+    text-align: center;
+    place-content: center;
+    height: 128px;
+    width: 128px;
+}
 
-.nav-item:hover::before{
+.nav-item::before {
     content: '';
-
-    height: 4px; 
-    width: 100px; 
-    background-color: var(--hoverclr);
     position: absolute;
-
-    left: -40%;
-    /* translate: -50%,-50%; */
-    bottom: -54px; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
 }
+.nav-item:hover::before {
+    background-color: var(--hoverclr);
+}
+
