@@ -1,6 +1,6 @@
 .main-footer {
     display: flex;
- 
+
     flex-direction: column;
     justify-content: center;
     line-height: 4.375em;
@@ -31,25 +31,25 @@
 }
 
 .fa-square-facebook:hover {
-    animation: tada 0.8s ;
+    animation: tada 0.8s;
     color: #005ca3;
     cursor: pointer;
 }
 
 .fa-square-twitter:hover {
-    animation: tada 0.8s ;
+    animation: tada 0.8s;
     color: #4ba6ec;
     cursor: pointer;
 }
 
 .fa-linkedin:hover {
-    animation: tada 0.8s ;
+    animation: tada 0.8s;
     color: #0d5b96;
     cursor: pointer;
 }
 
 .fa-square-behance:hover {
-    animation: tada 0.8s ;
+    animation: tada 0.8s;
     color: #583fa2;
     cursor: pointer;
 }
