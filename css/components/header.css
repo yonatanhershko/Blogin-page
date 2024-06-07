@@ -3,11 +3,10 @@
     height: 128px;
     background-color: var(--header-clr);
     color: var(--headertextclr);
-
     text-decoration: none;
+    margin-bottom:  6em;
     /* text-transform: uppercase; */
 }
-
 
 .main-nav {
     display: flex;
@@ -23,4 +22,34 @@
     color: var(--headertextclr);
     font-size: 2.5rem;
     font-family: eurofurence;
+}
+
+
+.nav-item{
+    position: relative;
+    text-decoration: none;
+    color: var(--headertextclr);
+    display: block;
+    width: 100%; 
+    height: 100%; 
+   
+}
+
+.nav-item:hover {
+    color: var(--hoverclr);
+}
+
+
+
+.nav-item:hover::before{
+    content: '';
+
+    height: 4px; 
+    width: 100px; 
+    background-color: var(--hoverclr);
+    position: absolute;
+
+    left: -40%;
+    /* translate: -50%,-50%; */
+    bottom: -54px; 
 }

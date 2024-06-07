@@ -1,8 +1,13 @@
-
 /* Colors Pallete  */
-:root{
+:root {
     --header-clr: rgba(41, 41, 41, 1);
-    --headertextclr : #FFFFFF;
-
+    --headertextclr: #FFFFFF;
+    --posttitleclr: #4F4E4E;
+    --posttextclr: #606060;
+    --postbtclr: #C2C1C1;
+    --postnavclr: #818188;
+    --hoverclr: #58C93A;
+    --logoblackclr: #292929;
+    --footerbgclr: rgba(248, 248, 248, 1);
 
 }

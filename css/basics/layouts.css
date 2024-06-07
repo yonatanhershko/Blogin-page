@@ -15,15 +15,13 @@
   .main-layout > *.full {
     grid-column: 1 / -1;
   }
+
+
+  .main-content-layout{
+
+  }
+
   
 
 
 
-  .post-layout {
-    /* --card-layout-margin: 80px; */
-    row-gap: 130px;
-    grid-template-columns:
-      var(--card-layout-margin)
-      1fr 60px 1fr
-      var(--card-layout-margin);
-  }

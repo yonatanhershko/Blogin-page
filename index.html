@@ -12,67 +12,82 @@
 <body class="main-layout">
     <header class="main-header full main-layout">
         <div class="flex space-between align-center">
-            <div class="logo">Blogin</div>
+            <div class="logo">Blogin<span class="dot">.</span></div>
             <nav>
                 <ul class="flex clean-list">
-                    <li><a herf='#'>Journal</a></li>
-                    <li><a herf='#'>About</a></li>
-                    <li><a herf='#'>Work</a></li>
-                    <li><a herf='#'>Contact</a></li>
+                    <li class="nav-item"><a herf='#'>Journal</a></li>
+                    <li class="nav-item"><a herf='#'>About</a></li>
+                    <li class="nav-item"><a herf='#'>Work</a></li>
+                    <li class="nav-item"><a herf='#'>Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
 
-    <main class="main-content">
+    <main class="main-content-layout">
 
         <div class="post-layout">
-            <img class="post-image" src="./img/1.png">
-            <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
-            <p class="post-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
-            <button class="post-bt">Continue Reading</button>
+            <div class="post">
+                <img class="post-image" src="img/1.png" alt="">
+                <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="post-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commo doconsequat, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button class="post-bt">Continue Reading </button>
+            </div>
         </div>
 
         <div class="post-layout">
-            <img class="post-image" src="./img/2.png">
-            <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
-            <p class="post-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
-            <button class="post-bt">Continue Reading</button>
+            <div class="post">
+                <img class="post-image" src="img/2.png" alt="">
+                <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="post-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commo doconsequat, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button class="post-bt">Continue Reading </button>
+            </div>
         </div>
 
 
         <div class="post-layout">
-            <img class="post-image" src="./img/3.png">
-            <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
-            <p class="post-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
-            <button class="post-bt">Continue Reading</button>
+            <div class="post">
+                <img class="post-image" src="img/3.png" alt="">
+                <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="post-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commo doconsequat, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button class="post-bt">Continue Reading </button>
+            </div>
         </div>
+        </main>
 
-    </main>
-    <section class="post-navigation full">
-        <button class="next-bt">Next </button>
-        <button class="prev-bt">Previous</button>
-    </section>
+        <section class="post-navigation flex space-between align-center">
+            <span class="next-bt"> <i class="fa-solid fa-caret-left"></i>Previous </span>
+            <span class="prev-bt">Next<i class="fa-solid fa-caret-right"></i></span>
+        </section>
 
-    <footer class="main-footer full">
-        <div class="logo">Blogin</div>
-        <small class="footer-rights">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at
-            Pixelhint.com</small>
-        <ul class="footer-social ">
-            <li><i class="fa-brands fa-square-facebook" style="color: #005ca3;"></i></li>
-            <li><i class="fa-brands fa-square-twitter" style="color: #4ba6ec;"></i></li>
-            <li><i class="fa-brands fa-linkedin" style="color: #0d5b96;"></i></li>
-            <li><i class="fa-solid fa-stroopwafel" style="color: #443108;"></i></li>
-        </ul>
+        <footer class="main-footer full">
+            <div class="logo-black">Blogin<span class="dot">.</span> </div>
+            <div class="footer-rights">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at
+                Pixelhint.com</div>
+            <ul class="footer-social flex clean-list ">
+                <li><i class="fa-brands fa-square-facebook" style="color: #005ca3;"></i></li>
+                <li><i class="fa-brands fa-square-twitter" style="color: #4ba6ec;"></i></li>
+                <li><i class="fa-brands fa-linkedin" style="color: #0d5b96;"></i></li>
+                <li><i class="fa-solid fa-stroopwafel" style="color: #443108;"></i></li>
+            </ul>
 
-    </footer>
+        </footer>
 
 </body>
 
