@@ -2,7 +2,21 @@
 
 .post-layout {
     display: grid;
-  
-    row-gap: 40px;
-    margin-bottom: 120px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 2fr 0.5fr;
+    
   }
+
+
+.post-image{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+
+  .post-title{
+    font-family: Lato-Bold;
+  }
+
+
+
