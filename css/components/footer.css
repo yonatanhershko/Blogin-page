@@ -1,20 +1,49 @@
-
-.main-footer{
+.main-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     line-height: 4.375em;
     height: 315px;
     text-align: center;
-    background-color:var( --footerbgclr);
+    background-color: var(--footerbgclr);
+    color: var(--footertext);
 }
 
-.logo-black{
+.logo-black {
     color: var(--logoblackclr);
     font-size: 2.5rem;
     font-family: eurofurence;
 }
 
-.footer-social{
+.footer-social {
+    font-size: 2.688rem;
     justify-content: center;
+
+}
+
+.fa-square-facebook,
+.fa-square-twitter,
+.fa-linkedin,
+.fa-square-behance {
+    transition: color 0.5s ease;
+}
+
+.fa-square-facebook:hover {
+    color: #005ca3;
+    cursor: pointer;
+}
+
+.fa-square-twitter:hover {
+    color: #4ba6ec;
+    cursor: pointer;
+}
+
+.fa-linkedin:hover {
+    color: #0d5b96;
+    cursor: pointer;
+}
+
+.fa-square-behance:hover {
+    color: #583fa2;
+    cursor: pointer;
 }
