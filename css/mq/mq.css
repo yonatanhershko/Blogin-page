@@ -18,6 +18,17 @@
         text-align: center;
         padding: 10px 35px;
     }
+
+    .nav-item{
+        position: relative;
+        border-left: 1px solid  rgb(27, 27, 27);
+        border-right: 1px solid  rgb(27, 27, 27);
+        text-align: center;
+        place-content: center;
+        height: 7em;
+        width: 7em;
+    }
+    
     
 }
 

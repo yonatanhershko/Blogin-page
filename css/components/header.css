@@ -47,8 +47,8 @@
     border-right: 1px solid  rgb(27, 27, 27);
     text-align: center;
     place-content: center;
-    height: 128px;
-    width: 128px;
+    height: 8em;
+    width: 8em;
 }
 
 .nav-item::before {
