@@ -1,0 +1,38 @@
+/* MOBILE ONLY  */
+@media (max-width: 920px) {
+    .main-layout {
+        display: grid;
+        grid-template-columns: minmax(130px, 1fr) minmax(auto, 1340px) minmax(130px, 1fr);
+    }
+    /* body{
+        background-color: #2a9300;
+    } */
+
+    .post {
+        display: grid;
+        grid-template-columns:1fr;
+        margin-top: 6em;
+        justify-items: center;
+    }
+    .post-title, .post-text {
+        text-align: center;
+        padding: 10px 35px;
+    }
+    
+}
+
+
+/* SMALL 600 */
+@media (min-width: 660px){
+
+}
+
+/* MEDIUM 860 */
+@media (min-width: 920px) {
+
+}
+
+/* LARGE 1060 */
+@media (min-width: 1120px){
+
+}
