@@ -54,15 +54,11 @@
 }
 
 /* SMALL */
-@media (max-width: 720px) {
+@media (max-width: 740px) {
     .main-layout {
         display: grid;
         grid-template-columns: minmax(40px, 1fr) minmax(auto, 1340px) minmax(40px, 1fr);
     }
-
-    /* body{
-        background-color: #50009f;
-    } */
 
     .post {
         display: grid;
