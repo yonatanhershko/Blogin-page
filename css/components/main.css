@@ -1,12 +1,14 @@
 .post {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+
     margin-top: 6em;
+
 }
 
 .post-image {
     display: block;
-   
+
     grid-column: 1/ 2;
     grid-row: 1/4;
 }
@@ -22,14 +24,14 @@
     width: 186px;
     height: 40px;
     border-radius: 25px;
-    color: var( --postbtclr);
+    color: var(--postbtclr);
     background-color: #fff;
-    border: 2px solid var( --postbtclr);
+    border: 2px solid var(--postbtclr);
     margin-inline-start: 1.5em;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
 }
 
-.post-bt:hover{
+.post-bt:hover {
     cursor: pointer;
     border: 2px solid var(--hoverclr);
     color: var(--hoverclr);
