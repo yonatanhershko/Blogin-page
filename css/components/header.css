@@ -16,13 +16,11 @@
     list-style: none;
 }
 
-
 .logo {
     color: var(--headertextclr);
     font-size: 2.5rem;
     font-family: eurofurence;
 }
-
 
 .nav-item{
     position: relative;
@@ -39,7 +37,6 @@
     cursor: pointer;
  
 }
-
 
 .nav-item{
     position: relative;
@@ -61,6 +58,7 @@
     background-color: transparent;
     transition: background-color 0.5s ease;
 }
+
 .nav-item:hover::before {
     background-color: var(--hoverclr);
 }

@@ -5,12 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mister-Blogger</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://kit.fontawesome.com/287346be32.js" crossorigin="anonymous"></script>
-    
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -28,9 +25,9 @@
                     <li class="nav-item"><a herf='#'>Contact</a></li>
                 </ul>
             </nav>
-        <h2 class="btn-menu hide-bt" onclick="toggleMenu()">☰</h2>
-        </div >
-      
+            <h2 class="btn-menu hide-bt" onclick="toggleMenu()">☰</h2>
+        </div>
+
         <nav class="main-nav-container">
             <ul class=" sec-nav flex clean-list">
                 <li class="nav-item"><a herf='#'>Journal</a></li>
@@ -39,7 +36,7 @@
                 <li class="nav-item"><a herf='#'>Contact</a></li>
             </ul>
         </nav>
-    
+
     </header>
 
 
@@ -55,7 +52,7 @@
                     Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur...
                 </p>
-                <button class="post-bt">Continue Reading </button>
+                <button class="post-bt" onclick="onPromoToggle()">Continue Reading </button>
             </div>
         </div>
 
@@ -69,7 +66,7 @@
                     Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur...
                 </p>
-                <button class="post-bt">Continue Reading </button>
+                <button class="post-bt" onclick="onPromoToggle()">Continue Reading </button>
             </div>
         </div>
 
@@ -84,29 +81,41 @@
                     Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur...
                 </p>
-                <button class="post-bt">Continue Reading </button>
+                <button class="post-bt" onclick="onPromoToggle()">Continue Reading </button>
             </div>
         </div>
-        </main>
+    </main>
 
-        <section class="post-navigation flex space-between align-center">
-            <span class="prev-bt">← &nbsp Previous </span>
-            <span class="next-bt">Next &nbsp →</i></span>
-        </section>
+    <section class="post-navigation flex space-between align-center">
+        <span class="prev-bt">← &nbsp Previous </span>
+        <span class="next-bt">Next &nbsp →</i></span>
+    </section>
 
-        <footer class="main-footer full">
-            <div class="logo-black">Blogin<span class="dot">.</span> </div>
-            <div class="footer-rights">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at
-                Pixelhint.com</div>
-            <ul class="footer-social flex clean-list ">
-                <li><i class="fa-brands fa-square-facebook" ></i></li>
-                <li><i class="fa-brands fa-square-twitter"></i></li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
-                <li><i class="fa-brands fa-square-behance"></i></li>
-            </ul>
 
-        </footer>
-<script src="./js/index.js"></script>
+    <section class="promo-modal flex align-center ">
+        <form id="frmRegister" onsubmit="onSubmit(event)">
+            <span class="close-bt" onclick="onPromoToggle()">X</span>
+            <h2>~Join us to get access to the latest stories</h2>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" />
+            <button class="submitporomo-bt" form="frmRegister">Send</button>
+        </form>
+    </section>
+
+
+    <footer class="main-footer full ">
+        <div class="logo-black">Blogin<span class="dot">.</span> </div>
+        <div class="footer-rights">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at
+            Pixelhint.com</div>
+        <ul class="footer-social flex clean-list ">
+            <li><i class="fa-brands fa-square-facebook"></i></li>
+            <li><i class="fa-brands fa-square-twitter"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-square-behance"></i></li>
+        </ul>
+
+    </footer>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

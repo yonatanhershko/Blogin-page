@@ -5,3 +5,7 @@ function toggleMenu() {
     var btnMenu = document.querySelector('.btn-menu');
     btnMenu.classList.toggle('hide-bt');
 }
+
+function onPromoToggle(){
+ document.body.classList.toggle('promo-open')
+}

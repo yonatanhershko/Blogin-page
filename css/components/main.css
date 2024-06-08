@@ -19,7 +19,6 @@
     text-transform: uppercase;
 }
 
-
 .post-bt {
     width: 186px;
     height: 40px;
@@ -38,8 +37,6 @@
     animation: pulse 1s infinite;
 }
 
-
-
 .post-title,
 .post-text {
     padding: 10px 35px;
@@ -48,7 +45,6 @@
 .post-text {
     color: var(--posttextclr);
 }
-
 
 .post-layout:nth-child(3) {
     display: grid;

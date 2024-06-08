@@ -12,6 +12,7 @@
 @import url(./components/main.css);
 @import url(./components/footer.css);
 @import url(./components/post-navigation.css);
+@import url(./components/Promo-modal.css);
 
 /* MQ  */
 @import url(./mq/mq.css);

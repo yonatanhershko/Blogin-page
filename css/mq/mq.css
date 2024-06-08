@@ -1,4 +1,4 @@
-/* MOBILE ONLY */
+/* Med*/
 @media (max-width: 920px) {
     .main-layout {
         display: grid;
@@ -94,10 +94,12 @@
         opacity: 0;
         transition: color 0.4s ease;
         transition: opacity 0.3s ease;
+        transition: color 0.4s ease, opacity 0.3s ease, transform 0.15s ease; /* Combined transitions */
+    transform: rotate(0deg);
     }
     .btn-menu:hover{
         color: var(--hoverclr);
-
+        transform: rotate(90deg);
     }
     
     .hide-bt {
@@ -115,8 +117,8 @@
 
 
     .nav-item {
-        height: 10vh;
-        width: 23vw;
+        height: 5vh;
+        width: 20vw;
         margin-block-start: 25px;
         background-color: rgb(26, 26, 26);
         border-radius: 8px;
@@ -129,7 +131,7 @@
         position: fixed;
         top: 0;
         right: 0;
-        height: 100vh;
+        height: 100%;
 
         background-color: rgba(239, 239, 239, 0.8);
         width: 100%;
