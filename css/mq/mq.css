@@ -2,7 +2,7 @@
 @media (max-width: 920px) {
     .main-layout {
         display: grid;
-        grid-template-columns: minmax(20px, 1fr) minmax(auto, 850px) minmax(20px, 1fr);
+        grid-template-columns: minmax(40px, 1fr) minmax(auto, 850px) minmax(40px, 1fr);
     }
 
     .post {
@@ -124,7 +124,7 @@
 @media (min-width: 920px) {
     .main-layout {
         display: grid;
-        grid-template-columns: 1fr minmax(auto, 960px) 1fr;
+    grid-template-columns: minmax(40px, 1fr) minmax(auto, 850px) minmax(40px, 1fr);
 
     }
 
