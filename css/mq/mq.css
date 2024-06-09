@@ -1,3 +1,5 @@
+
+
 /* Med*/
 @media (max-width: 920px) {
     .main-layout {
@@ -10,12 +12,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 6em;
-
     }
 
     .post-title,
     .post-text {
-        padding: 5px 5px;
+        padding: 10px 20px;
         margin: 0;
     }
 
@@ -35,12 +36,11 @@
 
 }
 
-
 /* SMALL */
 @media (max-width: 740px) {
     .main-layout {
         display: grid;
-        grid-template-columns: minmax(40px, 1fr) minmax(auto, 1340px) minmax(40px, 1fr);
+        grid-template-columns: minmax(40px, 1fr) minmax(auto, 850px) minmax(40px, 1fr);
     }
 
     .post {
@@ -49,7 +49,9 @@
         margin-top: 6em;
         justify-items: center;
     }
-
+    .post-bt{
+        margin-inline-start: 0;
+    }
     .post-title,
     .post-text {
 
@@ -124,7 +126,7 @@
 @media (min-width: 920px) {
     .main-layout {
         display: grid;
-    grid-template-columns: minmax(40px, 1fr) minmax(auto, 850px) minmax(40px, 1fr);
+    grid-template-columns: minmax(40px, 1fr) minmax(auto, 1220px) minmax(40px, 1fr);
 
     }
 
